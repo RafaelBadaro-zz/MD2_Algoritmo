@@ -25,21 +25,53 @@ namespace Algoritmo
         private void Button1_Click(object sender, EventArgs e)
         {
             int a = int.Parse(textBox1.Text);
-            // int b = int.Parse(textBox2.Text);
-            //int c = int.Parse(textBox3.Text);
+            int b = int.Parse(textBox2.Text);
+            int c = int.Parse(textBox3.Text);
+            bool apenasPositivos = checkBox1.Checked;
             dataGridView1.Rows.Clear();
-            for (int i = 0; i < 5; i++)
-            {
-                    dataGridView1.Rows.Add(a, a);   
-            }
-            if (checkBox1.Checked)
-            {
 
+            // dataGridView1.Rows.Add(a, a);
+            Euclides(a, b);
+
+
+            if (apenasPositivos)
+            {
+                
             }
             else
             {
 
             }
+        }
+
+        private void Euclides(int a, int b)
+        {
+
+            int dividendo, divisor, resto, quociente;
+            int mdc;
+
+            dividendo = a;
+            divisor = b;
+            quociente = dividendo / divisor;
+            resto = dividendo % divisor;
+            List<string> operacoes = new List<string>();
+            string operacao = dividendo + "," + quociente + "," + divisor + "," + resto;
+            operacoes.Add(operacao);
+
+            while (resto > 0)
+            {
+                dividendo = divisor;
+                divisor = resto;
+                quociente = dividendo / divisor;
+                resto = dividendo % divisor;
+
+                operacao = dividendo + "," + quociente + "," + divisor + "," + resto;// a = qb + r
+                operacoes.Add(operacao);
+
+            }
+
+            mdc = divisor;
+
 
         }
     }
