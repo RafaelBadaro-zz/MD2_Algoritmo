@@ -48,9 +48,10 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(198, 226);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(157, 17);
+            this.checkBox1.Size = new System.Drawing.Size(225, 24);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Somente soluções positivas";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -59,38 +60,40 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(176, 60);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(120, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(289, 13);
+            this.label1.Size = new System.Drawing.Size(444, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Bem vindo ao programa para calcular a equação diofantina:\r\n";
+            this.label1.Text = "Bem vindo ao programa para calcular a equações diofantinas:\r\n";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(276, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "𝑎 ∙ 𝑥 + 𝑏 ∙ 𝑦 = c";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 138);
+            this.textBox1.Location = new System.Drawing.Point(198, 144);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(226, 20);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(198, 164);
+            this.textBox2.Location = new System.Drawing.Point(198, 170);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(226, 20);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(198, 190);
+            this.textBox3.Location = new System.Drawing.Point(198, 200);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(226, 20);
             this.textBox3.TabIndex = 5;
@@ -98,27 +101,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(176, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(16, 13);
+            this.label3.Size = new System.Drawing.Size(22, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "a:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(176, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 13);
+            this.label4.Size = new System.Drawing.Size(22, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "b:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(176, 193);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(16, 13);
+            this.label5.Size = new System.Drawing.Size(21, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "c:";
             // 
@@ -152,7 +158,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(198, 308);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(253, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(246, 150);
             this.dataGridView1.TabIndex = 15;
             // 
             // Column1
@@ -171,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 479);
+            this.ClientSize = new System.Drawing.Size(693, 479);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);

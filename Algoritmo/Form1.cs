@@ -54,9 +54,6 @@ namespace Algoritmo
             divisor = b;
             quociente = dividendo / divisor;
             resto = dividendo % divisor;
-            List<string> operacoes = new List<string>();
-            string operacao = dividendo + "," + quociente + "," + divisor + "," + resto;
-            operacoes.Add(operacao);
 
             while (resto > 0)
             {
@@ -64,9 +61,6 @@ namespace Algoritmo
                 divisor = resto;
                 quociente = dividendo / divisor;
                 resto = dividendo % divisor;
-
-                operacao = dividendo + "," + quociente + "," + divisor + "," + resto;// a = qb + r
-                operacoes.Add(operacao);
 
             }
 
